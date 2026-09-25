@@ -12,37 +12,44 @@
 
   <body>
     <div id="app" class="app">
-      <div id="top-controls">
-        <a id="cynthia-link" href="https://cynthiakaufman.net/" target="_blank">
-          <img class="cynthia-image" src="assets/images/ck-photo-2016-1.webp">
-          Cynthia Kaufman
-        </a>
-        <a id="download-zine" href="assets/pdfs/issue1.pdf" download="solidarity_economics_zine.pdf">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
-            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
-          </svg>
-        </a>
-        <div id="book-download">
+      <div class="content-container">
+        <div id="top-controls" class="top-controls">
+          <div>
+            <a id="cynthia-link" class="cynthia-link" href="https://cynthiakaufman.net/" target="_blank">
+              <img class="cynthia-image" src="assets/images/ck-photo-2016-1.webp">
+              <div>
+                Cynthia Kaufman
+              </div>
+            </a>
+          </div>
+          <div class="download-zine-container">
+            <a id="download-zine" class="download-zine btn btn-primary" href="assets/pdfs/issue1.pdf" download="solidarity_economics_zine.pdf">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+              </svg>
+              Download Zine
+            </a>
+            <a class="btn btn-primary" href="https://plix.mit.edu/facilitator-resources/how-to-fold-a-zine" target="_blank">
+              Folding Instructions
+            </a>
+            <a href="/book_download" class="btn btn-primary download-books">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+              </svg>
+              Download Books
+            </a>
+          </div>
         </div>
-      </div>
-      <div id="slideshow-pane">
-	<img class="slideshow-image" src="assets/images/issue1/page1.png">
-      </div>
-      <div id="bottom-controls" class="controls">
-        <div id="left-arrow">
-	  <button class="btn btn-primary" type="button">
-	    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
-            </svg>
-	  </button>
-        </div>
-        <div id="right-arrow">
-	  <button class="btn btn-primary" type="button">
-	    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-            </svg>
-	  </button>
+        <div id="zine-scroll" class="zine-scroll">
+          <img class="slideshow-image" src="assets/images/issue1/page1.png">
+          <img class="slideshow-image" src="assets/images/issue1/page2.png">
+          <img class="slideshow-image" src="assets/images/issue1/page3.png">
+          <img class="slideshow-image" src="assets/images/issue1/page4.png">
+          <img class="slideshow-image" src="assets/images/issue1/page5.png">
+          <img class="slideshow-image" src="assets/images/issue1/page6.png">
+          <img class="slideshow-image" src="assets/images/issue1/page7.png">
+          <img class="slideshow-image" src="assets/images/issue1/page8.png">
         </div>
       </div>
     </div>

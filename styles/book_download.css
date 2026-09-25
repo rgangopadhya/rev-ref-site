@@ -1,0 +1,16 @@
+.body {
+  display: flex;
+  background-color: #e7ffe2;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  max-width: 540px;
+  flex-wrap: wrap;
+}
+
+.book_cover_img {
+  max-width: 180px;
+  padding: 8px;
+}
