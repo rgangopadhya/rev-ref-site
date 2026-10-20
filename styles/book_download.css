@@ -1,7 +1,17 @@
-.body {
+.app {
   display: flex;
   background-color: #e7ffe2;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.controls {
+  padding-bottom: 35px;
+}
+
+.back {
+
 }
 
 .gallery {
