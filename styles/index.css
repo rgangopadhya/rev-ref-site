@@ -1,60 +1,27 @@
 .app {
   display: flex;
   background-color: #e7ffe2;
-  justify-content: center;
-}
-
-.content-container {
-  background-color: white;
-}
-
-.top-controls {
-  background-color: #e7ffe2;
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-}
-
-.cynthia-link {
-  display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.cynthia-image {
-  width: 80px;          /* Set your desired size */
-  aspect-ratio: 1 / 1;   /* Ensures a perfect square */
-  border-radius: 50%;    /* Turns the square into a circle */
-  object-fit: cover;     /* Keeps the aspect ratio without stretching */
-  object-position: center; /* Centers the image content (optional) */
+  padding: 50px;
 }
 
 .controls {
+  padding-bottom: 35px;
+}
+
+.back {
+
+}
+
+.gallery {
   display: flex;
-  flex-direction: row;
+  max-width: 540px;
+  flex-wrap: wrap;
 }
 
-.download-zine-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+.book_cover_img {
+  max-width: 180px;
+  padding: 8px;
 }
 
-.download-zine {
-  margin: 5px;
-}
-
-.download-books {
-  margin: 5px;
-}
-
-.zine-scroll {
-  display: flex;
-  flex-direction: column;
-}
-
-.slideshow-image {
-  width: 400px;
-  padding: 20px;
-  border-bottom: 2px black dashed;
-}
