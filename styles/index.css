@@ -1,22 +1,23 @@
 .app {
   display: flex;
-  background-color: #e7ffe2;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
 }
 
 .controls {
-  padding-bottom: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 250px;
+  justify-content: center;
 }
 
-.back {
-
+.download-zine {
+  margin: 10px;
 }
 
 .gallery {
   display: flex;
-  max-width: 540px;
+  max-width: 400px;
   flex-wrap: wrap;
 }
 
@@ -25,3 +26,20 @@
   padding: 8px;
 }
 
+.zine-scroll {
+  display: flex;
+  flex-direction: column;
+}
+
+.zine-image {
+  width: 400px;
+  padding: 20px;
+}
+
+.slideshow-image {
+  border-bottom: 2px black dashed;
+}
+
+.info {
+  max-width: 400px;
+}
