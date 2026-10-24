@@ -29,7 +29,7 @@
 
 .gallery {
   display: flex;
-  max-width: 400px;
+  max-width: min(calc(100vw - 20px), 400px);
   flex-wrap: wrap;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .zine-image {
-  max-width: 400px;
+  max-width: min(calc(100vw - 20px), 400px);
   padding: 20px;
 }
 
@@ -53,6 +53,6 @@
 }
 
 .info {
-  max-width: 400px;
+  max-width: min(100vw, 400px);
   font-size: 24px;
 }
